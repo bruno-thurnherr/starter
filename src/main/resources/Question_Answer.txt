@@ -1,0 +1,7 @@
+What does @RestController do?
+
+What will be the answer when calling GET /employees/ and why?
+
+Why is the response a Arrays.asList?
+
+Does Spring still work, if you name the file MyController1.java? If yes, why?
