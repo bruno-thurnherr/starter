@@ -1,7 +1,24 @@
 What does @RestController do?
+@RestControllerist eine praktische Annotation, die nichts weiter tut als das Hinzufügen der Annotationen @Controllerund @ResponseBody(siehe: Javadoc )
 
 What will be the answer when calling GET /employees/ and why?
 
+answer:
+0	"Tenzing Norgay"
+1	"Edmund Hillary"
+2	"These names"
+3	"should never be available"
+4	"to anonymous users!"
+
+why:
+because you show the endpoint, employee
+(URL, http://localhost:8080/employees/)
+
+
 Why is the response a Arrays.asList?
+    public List<String> employees() {
+        return Arrays.asList(new String[]
+        }
 
 Does Spring still work, if you name the file MyController1.java? If yes, why?
+Non, MyController1.java is not a valid identifier
